@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+	
+<head>
+
+</head>
+<body>
+	<script type = "text/javascript">
+		function showInfo(username,password){
+			alert("username: " + username +"   password: " +password)
+		}
+	  
+	</script>
+	<form>
+		<p>Username: 
+		  	<input type="text" id="a" name="username"/>
+		</p>
+		<p>Password 
+			<input type="password" id="b" name="password"/>
+		</p>
+		<p>
+			<input type="button" id="submit" name="submit" value="Submit" onclick = "showInfo(document.getElementById('a').value,document.getElementById('b').value)"/>
+			<input type="button" id="cancel" name="cancel" value="Cancel"/>
+		</p>
+	</form>
+</body>	
+</html>
