@@ -1,0 +1,29 @@
+{
+    "users": [
+        {
+            "name" : "bob",
+            "password" : "1111",
+            "occupation": "student",
+            "id": "1"
+        },
+        {
+            "name" : "susan",
+            "password" : "3333",
+            "occupation": "driver",
+            "id": "3"
+        },
+        {
+            "name" : "john",
+            "password" : "4444",
+            "occupation": "pilot",
+            "id": "4"
+        },
+        {
+            "name" : "susan",
+            "password" : "5555",
+            "occupation": "driver",
+            "id": "5"
+        }
+    
+    ]
+}
